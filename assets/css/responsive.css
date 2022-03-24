@@ -1,0 +1,324 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .hero-slider {
+        height: 700px;
+    }
+    .order-heading h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .order-list ul li i {
+        margin-right: 10px;
+    }
+    .order-list ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .blog-item {
+        padding: 15px;
+    }
+    .mobileapp-text h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .food-nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .food-menu-two-wrapper .blog-item .blog-bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .review-star {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .slider-text {
+        text-align: center;
+    }
+    .slider-text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .hero-slider .img-area {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .hero-slider img {
+        width: 500px;
+        margin: 0px auto;
+    }
+    .order-heading h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .order-list ul li i {
+        margin-right: 10px;
+    }
+    .order-list ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .blog-item {
+        padding: 50px;
+        margin-bottom: 20px;
+    }
+
+    .blog-item {
+        padding: 15px;
+    }
+    .mobileapp-text h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .md-t-20 {
+        margin-top: 20px;
+    }
+    .food-nav-two ul li a {
+        font-size: 18px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slider-text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .hero-slider .img-area {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .hero-slider img {
+        width: 500px;
+        margin: 0px auto;
+    }
+    .order.mt-140 {
+        margin-top: 50px;
+    }
+    .order.pb-160 {
+        padding-bottom: 50px;
+    }
+    .order-heading h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .order-list ul li i {
+        margin-right: 10px;
+    }
+    .order-list ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .section-title h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .food-menu .mb-70 {
+        margin-bottom: 0px;
+    }
+    .food-menu-two-wrapper {
+        margin-top: 20px;
+    }
+    .blog-item {
+        padding: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .mobileapp-text h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .md-t-20 {
+        margin-top: 20px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .slider{
+        margin-top: -20px;
+    }
+    .food-menu-two h2 {
+        text-align: center;
+    }
+    .foodmenu-two-controls {
+        text-align: center;
+        margin-top: 20px;
+        display: none;
+    }
+    .food-menu-two-wrapper {
+        height: fit-content;
+    }
+    .food-menu-two-wrapper .blog-item {
+        height: fit-content;
+    }
+    .container {
+        width: 450px;
+    }
+    .nav-right {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .footer-item {
+        margin-bottom: 10px;
+    }
+}
+/* small Mobile :320px - 479. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .food-menu-two h2 {
+        text-align: center;
+    }
+    .foodmenu-two-controls {
+        text-align: center;
+        margin-top: 20px;
+        display: none;
+    }
+    .food-menu-two-wrapper {
+        height: fit-content;
+    }
+    .food-menu-two-wrapper .blog-item {
+        height: fit-content;
+    }
+    .container {
+        width: 315px;
+    }
+    .slider-text {
+        margin-top: 10px;
+    }
+    .slider-text h1 {
+        font-size: 40px;
+    }
+    .order-heading h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .order-list ul li {
+        font-size: 16px;
+    }
+    .nav-right {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .slider {
+        margin-top: -50px;
+    }
+    .testimonial {
+        padding: 70px 0px;
+    }
+    .footer-item {
+        margin-bottom: 10px;
+    }
+    .tst-text p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .pt-110 {
+        padding-top: 50px;
+    }
+    .pb-110 {
+        padding-bottom: 50px;
+    }
+    .mobileapp-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .mobileapp-btn {
+        text-align: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .mobileapp-btn a img {
+        width: 140px;
+    }
+    .blog-bottom {
+        flex-direction: column;
+    }
+    .blog-bottom a {
+        margin-top: 20px;
+    }
+    .blog-item {
+        padding: 10px 5px 20px 5px;
+    }
+    .section-title h2 {
+        font-size: 20px;
+    }
+    .food-nav {
+        margin-top: -50px;
+    }
+}
+/* menu area */
+@media all and (max-width: 991px) {
+    header {
+        padding: 30px 0px;
+        padding-right: 120px;
+    }
+    .nav-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        background-color: black;
+        height: 100vh;
+        min-width: 330px;
+        padding: 20px 40px;
+        padding-top: 50px;
+        z-index: 9888;
+    }
+    .nav-wrapper nav ul {
+        flex-direction: column;
+    }
+    .nav-wrapper nav ul li a {
+        color: #fff;
+    }
+    .nav-wrapper nav ul li a {
+        margin-right: 0px;
+        padding: 0px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .nav-wrapper {
+        transform: translateX(-400px);
+    }
+    .hideMenu {
+        transform: translateX(-400px);
+        transition: all ease 0.5s;
+    }
+    .showMenu {
+        transform: translateX(0px);
+        transition: all ease 0.5s;
+    }
+}
